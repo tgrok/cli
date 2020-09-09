@@ -83,4 +83,4 @@ if (!port) {
   return
 }
 
-tgrok.startLocal(port, args['--subdomain'])
+tgrok.start(port, args['--subdomain'])
