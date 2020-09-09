@@ -1,0 +1,36 @@
+{
+  "name": "tgrok-cli",
+  "version": "1.0.0",
+  "description": "tgrok cli of tunneling service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgrok/cli.git"
+  },
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "tgrok": "./bin/tgrok.js"
+  },
+  "keywords": [
+    "tgrok",
+    "tunnel",
+    "ngrok",
+    "typescript"
+  ],
+  "author": "yueyuzhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgrok/cli/issues"
+  },
+  "homepage": "https://github.com/tgrok/cli#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "chalk": "^4.1.0",
+    "tgrok": "git+https://github.com/tgrok/tgrok.git"
+  }
+}
